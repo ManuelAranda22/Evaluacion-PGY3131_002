@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <h1 class="icon-cab">Taller Mecánico Rayo Makween</h1>
+            <input type="checkbox" name="" id="menu-bar">
+            <label class="icon-left-open" for="menu-bar"></label>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="repuestos.html">Repuestos</a>
+                <a href="formularios.html">Formularios</a>
+                <a href="nosotros.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="formulario">
+
+            <form class="form-registro" action="" method="post">
+
+                <h2 class="form-titulo">Agende el dia de atencion </h2>
+
+                <div class="contenedor-input">
+                    <input class="col-sm" type="text" name="txtRut" id="txtRut" placeholder="ingrese rut">
+                    <input class="col-sm" type="text" name="txtNombreCompleto" id=""
+                        placeholder="ingrese nombre y apellido">
+                    <input class="col-sm" type="date" name="txtFechaNaci" id="txtFechaNaci">
+                    <input class="col-xl" type="text" name="txtFono" id="" placeholder="ingrese fono">
+
+                    <input class="btn-registro" type="submit" value="Agendar">
+                    <input class="btn-registro" type="button" value="Validacion" onclick="validarFormulario()">
+                </div>
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <p>Taller Mecánico Rayo Makween-Por Manuel Aranda</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
